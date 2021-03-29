@@ -26,6 +26,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('js-numerals app is running!');
+    expect(compiled.querySelector('h3').textContent).toContain('Miguel Angel Ríos Arias');
   });
 });
