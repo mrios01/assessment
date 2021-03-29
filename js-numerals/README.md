@@ -1,25 +1,27 @@
-# JavaScript/Front-end Developer - Exercise 1
+# JsNumerals
 
-## Instructions
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-- Fork this project.
-- Write tests.
-- Don't use external libraries for the conversion.
-- Commit the important milestones and not just the final result.
+## Development server
 
-## Exercise description
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Create an application that contains a web form, which has a numeric input field and a submit button.
+## Code scaffolding
 
-When the user gives an arabic number, the system shows the english phrase of that number.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-For example:
-<pre>
-7    == seven
-42   == forty-two
-2001 == two thousand and one
-1999 == nineteen hundred and ninety-nine
-17999 == seventeen thousand nine hundred and ninety-nine
-</pre>
+## Build
 
-That's all.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
